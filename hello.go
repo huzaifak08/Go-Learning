@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"fmt" // Format Package
 	"math"
 	"math/rand"
 	"time"
