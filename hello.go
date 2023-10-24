@@ -1,18 +1,19 @@
 package main
 
-import (
-	"fmt" // Format Package
-	"math"
-	"math/rand"
-	"time"
-)
+import "fmt"
+
+func simpleAdd(x int, y int) int {
+	return x + y
+}
+
+func add(x, y int) int {
+	return x + y
+}
 
 func main() {
 	fmt.Println("Hello World We are learning Golang Allhamdullilah")
 
-	fmt.Println(time.Now())
+	fmt.Println(add(1, 2))       // 3
+	fmt.Println(simpleAdd(3, 4)) // 7
 
-	fmt.Println("My favourite number is ", rand.Intn(10))
-
-	fmt.Println("The square root of 7 is ", math.Sqrt(7))
 }
